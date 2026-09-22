@@ -213,10 +213,12 @@ expect(locator).toBeVisible()
 ```
 
 - Page Object Model
+```text
 Pages
  ├─ HomePage
  ├─ SearchPage
  └─ CheckoutPage
+```
 
 ## Phase 6: Framework Design (3 Weeks)
 
@@ -226,6 +228,7 @@ Many engineers know Playwright. Few know framework architecture.
 
 ### Folder Structure
 AutomationFramework
+```text
 │
 ├── Pages
 ├── Tests
@@ -234,6 +237,7 @@ AutomationFramework
 ├── Configuration
 ├── Reports
 └── Pipelines
+```
 
 ### Design Patterns
 - Page Object Model
@@ -259,7 +263,7 @@ A framework without reporting is incomplete.
 - Failure details
 
 *Expected output:*
-```
+```text
 500 tests run
 490 passed
 10 failed
@@ -332,7 +336,7 @@ docker run
 Generate data automatically.
 
 *Example:*
-```plaintext
+```text
 Create User
 Create Reservation
 Create Order
@@ -376,6 +380,7 @@ to
 - Shift Left
 Testing during development.
 
+```text
 Test Pyramid
          UI
         /  \
@@ -383,7 +388,7 @@ Test Pyramid
       API
      /    \
  Unit Tests
-
+```
 
 *Target:*
 - 70% Unit
@@ -422,6 +427,7 @@ Automate:
 Validate orders inserted correctly.
 
 ### CI/CD
+```text
 GitHub
  ↓
 Pipeline
@@ -433,6 +439,7 @@ Tests
 Report
  ↓
 Deploy
+```
 
 ### Reporting
 - Allure
@@ -443,7 +450,7 @@ Deploy
 ## Real-World Learning Stack (2026)
 
 If I were mentoring a Software Developer into a strong Automation Engineer today, I'd recommend:
-```
+```text
 Language:
 C#
 
@@ -479,10 +486,12 @@ SQL Server
 ```
 
 ## 6-Month Roadmap
-Month	Focus1	Testing fundamentals + Git
-2	C# for automation
-3	API testing
-4	Playwright UI automation
-5	Framework architecture + reporting
-6	Azure DevOps pipelines + Docker + capstone project
 
+| Month | Focus |
+|---------|---------|
+| 1 | Testing Fundamentals + Git |
+| 2 | C# for Automation |
+| 3 | API Testing |
+| 4 | Playwright UI Automation |
+| 5 | Framework Architecture + Reporting |
+| 6 | Azure DevOps Pipelines + Docker + Capstone Project |
